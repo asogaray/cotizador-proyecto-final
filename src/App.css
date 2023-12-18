@@ -81,6 +81,26 @@ form .column {
   background-color: var(--color-btn);
   color: #fff;
 }
+
+.btnGuardar{
+  display: block;
+  width: 100%;
+  font-size: inherit;
+  padding: 7px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  margin-top: 10px;
+  color: var(--color-btn);
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+  cursor: pointer;
+}
+
+.btnGuardar:hover{
+  background-color: var(--color-btn);
+  color: #fff;
+}
+
 .mensaje {
   background-color: var(--color-primario);
   padding: 1% 0;
