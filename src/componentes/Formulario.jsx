@@ -15,10 +15,7 @@ const Formulario = ({cantidad, setCantidad, plazo, setPlazo, setTotal}) => {
 
         const total = calcularTotal(cantidad,plazo);
         setTotal(total)
-        // console.log(total);
     }
-     
-    // export default ;
 
     return ( 
         <>

@@ -9,10 +9,9 @@ const Resultado = ({total, cantidad, plazo}) => {
                 <p>A pagar en: {plazo} meses</p>
                 <p>Su pago mensual con interes incluido es de: ${(total / plazo).toFixed(2)}</p>
                 <p>Total a pagar: ${total}</p>
-
             </div>    
             <div>
-                <button className='btnGuardar' onClick={()=>{console.log("hiciste click")}}>Guardar en el historial</button>
+                <button className='btnGuardar' onClick={()=>{alert("se guardó correctamente")}}>Guardar en el historial</button>
             </div> 
         </div>
      );
